@@ -17,5 +17,5 @@ todo.del('ノートを買う');
 todo.del('鉛筆を買う');
 assert.deepEqual(todo.list(),[]);
 assert.deepEqual(todo.donelist(),[]);
-
+console.log('test');
 console.log('テストが正常に完了しました。');
